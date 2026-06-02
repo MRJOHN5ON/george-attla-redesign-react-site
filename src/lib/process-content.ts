@@ -1,6 +1,7 @@
 import * as cheerio from "cheerio";
 import type { CheerioAPI } from "cheerio";
 import { rewriteRootUrls, withBasePath } from "@/lib/base-path";
+import { formatLabelledParagraphs } from "@/lib/format-labelled-sections";
 import {
   cleanupHeadings,
   normalizeWinnerLists,
@@ -163,6 +164,7 @@ export function processContentHtml(
   upgradeGalleries($, $root);
   normalizeWinnerLists($, $root);
   cleanupHeadings($, $root);
+  formatLabelledParagraphs($, $root);
 
   if (!heroImage) {
     heroImage = extractHero($, $root, pageTitle);

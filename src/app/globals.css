@@ -144,6 +144,98 @@
   font-size: 0.7em;
 }
 
+/* Inline bold labels promoted to section headings */
+.attla-prose .attla-section-label {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin: 2.5rem 0 1rem;
+  max-width: none;
+}
+
+/* Program Highlights — timeline layout (FAYSDP page) */
+.attla-prose .attla-highlights {
+  clear: both;
+  margin: 2.5rem 0;
+  padding: 1.75rem 1.5rem;
+  max-width: none;
+  background: var(--surface-elevated);
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.attla-prose .attla-highlights .attla-section-label {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  color: var(--accent);
+}
+
+.attla-prose .attla-highlights-intro {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--ink-soft);
+  margin-bottom: 1.5rem;
+  max-width: 65ch;
+}
+
+.attla-prose .attla-highlights-timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.attla-prose .attla-highlights-item {
+  margin: 0;
+  padding: 1.25rem 1.25rem 1.25rem 1.5rem;
+  background: var(--surface);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 0.5rem 0.5rem 0;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.04);
+}
+
+.attla-prose .attla-highlights-year {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.65rem;
+}
+
+.attla-prose .attla-highlights-item p:not(.attla-highlights-year) {
+  margin: 0 0 0.75rem;
+  max-width: none;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--ink-soft);
+}
+
+.attla-prose .attla-highlights-item p:not(.attla-highlights-year):last-child {
+  margin-bottom: 0;
+}
+
+.attla-prose .attla-highlights-close {
+  margin: 1.5rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 65ch;
+}
+
+@media (min-width: 768px) {
+  .attla-prose .attla-highlights {
+    padding: 2rem 2.25rem;
+  }
+}
+
 .attla-prose img:not(.attla-gallery-img) {
   display: block;
   width: auto !important;
