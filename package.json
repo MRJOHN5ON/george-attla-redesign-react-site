@@ -10,6 +10,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "build:image-meta": "node scripts/build-image-metadata.mjs",
     "prebuild": "node scripts/build-search-index.mjs"
   },
   "dependencies": {

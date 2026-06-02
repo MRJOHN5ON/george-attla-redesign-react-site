@@ -12,6 +12,7 @@ function StoryCard({ post, large = false }: { post: HomePost; large?: boolean })
             alt={post.title}
             fill
             coverFocus
+            displayContext="card"
             className="opacity-90 transition-transform duration-700 group-hover:scale-[1.03]"
             sizes="(max-width: 768px) 100vw, 50vw"
             unoptimized={post.image.endsWith(".gif")}
@@ -41,6 +42,7 @@ function StoryCard({ post, large = false }: { post: HomePost; large?: boolean })
           alt={post.title}
           fill
           coverFocus
+          displayContext="card"
           className="transition-transform duration-500 group-hover:scale-[1.04]"
           sizes="(max-width: 768px) 100vw, 33vw"
           unoptimized={post.image.endsWith(".gif")}

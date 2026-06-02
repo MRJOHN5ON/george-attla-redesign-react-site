@@ -10,12 +10,13 @@ export function ArticleHero({
   title: string;
 }) {
   return (
-    <div className="relative h-[min(52vh,520px)] w-full overflow-hidden bg-stone-200">
+    <div className="relative flex h-[min(52vh,520px)] w-full items-center justify-center overflow-hidden bg-stone-300">
       <SiteImage
         src={src}
         alt={alt}
         fill
         coverFocus
+        displayContext="hero"
         sizes="100vw"
         priority
         unoptimized={src.endsWith(".gif")}

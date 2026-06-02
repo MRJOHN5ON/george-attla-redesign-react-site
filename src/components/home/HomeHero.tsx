@@ -4,12 +4,13 @@ import { homeHero, site } from "@/data/home";
 
 export function HomeHero() {
   return (
-    <section className="relative min-h-[min(72vh,640px)] overflow-hidden bg-stone-900 sm:min-h-[min(80vh,800px)] xl:min-h-[min(88vh,900px)]">
+    <section className="relative flex min-h-[min(72vh,640px)] items-center justify-center overflow-hidden bg-stone-900 sm:min-h-[min(80vh,800px)] xl:min-h-[min(88vh,900px)]">
       <SiteImage
         src={homeHero.src}
         alt={homeHero.alt}
         fill
         coverFocus
+        displayContext="hero"
         sizes="100vw"
         priority
       />

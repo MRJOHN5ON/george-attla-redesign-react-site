@@ -1,11 +1,15 @@
 import Image, { type ImageProps } from "next/image";
 import { withBasePath } from "@/lib/base-path";
-import { focalPointForSrc } from "@/lib/image-focus";
+import {
+  displayHintForSrc,
+  type ImageDisplayContext,
+} from "@/lib/image-focus";
 import { cn } from "@/lib/utils";
 
 type SiteImageProps = ImageProps & {
-  /** When true, apply archive-aware object-position for cover crops. */
+  /** Apply archive-aware crop / letterbox rules for framed photos. */
   coverFocus?: boolean;
+  displayContext?: ImageDisplayContext;
 };
 
 /** next/image does not apply basePath in static export HTML — required for GitHub Pages. */
@@ -14,19 +18,32 @@ export function SiteImage({
   className,
   style,
   coverFocus = false,
+  displayContext = "article",
   ...props
 }: SiteImageProps) {
   const resolved = typeof src === "string" ? withBasePath(src) : src;
-  const focusStyle =
+
+  const hint =
     coverFocus && typeof src === "string"
-      ? { objectPosition: focalPointForSrc(src), ...style }
-      : style;
+      ? displayHintForSrc(src, displayContext)
+      : null;
 
   return (
     <Image
       src={resolved}
-      className={cn(coverFocus && "object-cover", className)}
-      style={focusStyle}
+      className={cn(
+        hint && (hint.objectFit === "contain" ? "object-contain" : "object-cover"),
+        className
+      )}
+      style={
+        hint
+          ? {
+              objectPosition: hint.objectPosition,
+              objectFit: hint.objectFit,
+              ...style,
+            }
+          : style
+      }
       {...props}
     />
   );

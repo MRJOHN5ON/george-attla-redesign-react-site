@@ -1,0 +1,2802 @@
+{
+  "/images/attla/1950-slideshow2-900x300.jpg": {
+    "w": 900,
+    "h": 300,
+    "aspect": 3,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/1980-slideshow1-900x300.jpg": {
+    "w": 900,
+    "h": 300,
+    "aspect": 3,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/1988-900x300.jpg": {
+    "w": 900,
+    "h": 300,
+    "aspect": 3,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/0-1982.03-Stapleton-Rob-of-George-on-training-run-300x169.jpg": {
+    "w": 300,
+    "h": 169,
+    "aspect": 1.775,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/0-1982.03-Stapleton-Rob-of-George-on-training-run.jpg": {
+    "w": 5072,
+    "h": 2873,
+    "aspect": 1.765,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/1950-slideshow2.jpg": {
+    "w": 960,
+    "h": 350,
+    "aspect": 2.743,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/1958.02.24-ADT-Attla-Dog-mushing-Champion-COMP_RJ.jpg": {
+    "w": 4139,
+    "h": 4783,
+    "aspect": 0.865,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/1969.02-Vehlow-Maxine-of-George-running-Rondy-300x243.jpg": {
+    "w": 300,
+    "h": 243,
+    "aspect": 1.235,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/1969.02-Vehlow-Maxine-of-George-running-Rondy.jpg": {
+    "w": 2832,
+    "h": 2300,
+    "aspect": 1.231,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/1970-George-at-start-of-fur-rondy-240x300.jpg": {
+    "w": 240,
+    "h": 300,
+    "aspect": 0.8,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/1970-George-at-start-of-fur-rondy.jpg": {
+    "w": 480,
+    "h": 600,
+    "aspect": 0.8,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/1970.02-Vehlow-Maxine-of-George-clapping-up-leaders-at-Rondy.jpg": {
+    "w": 5796,
+    "h": 3854,
+    "aspect": 1.504,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/1975.02.17-ADN-Attla-regains-title-Comp-300dpi_RJ.jpg": {
+    "w": 2684,
+    "h": 6739,
+    "aspect": 0.398,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/198.-1-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/198.-1.jpg": {
+    "w": 1993,
+    "h": 1285,
+    "aspect": 1.551,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/1980-slideshow1.jpg": {
+    "w": 960,
+    "h": 350,
+    "aspect": 2.743,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/1989.02-Lavrankas-Jim-of-Geoge-run-of-Exxon.jpg": {
+    "w": 5274,
+    "h": 3513,
+    "aspect": 1.501,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/2000.02.23-ADN-He-owns-the-Rondy-Comp_RJ.jpg": {
+    "w": 3619,
+    "h": 2263,
+    "aspect": 1.599,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/2007-Grampas-advice-at-ONAC-Bev-Simons-photo-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/2007-Grampas-advice-at-ONAC-Bev-Simons-photo-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/2007-Grampas-advice-at-ONAC-Bev-Simons-photo-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/2007-Grampas-advice-at-ONAC-Bev-Simons-photo.jpg": {
+    "w": 400,
+    "h": 300,
+    "aspect": 1.333,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/2007.02-Golden-Valley-RURALITE-A-Mushing-Legend_RJ.jpg": {
+    "w": 2576,
+    "h": 3282,
+    "aspect": 0.785,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/2008.03.30-Fairbanks-Daily-New-Miner-A-local-Hero-COMP_RJ_Smaller.jpg": {
+    "w": 3700,
+    "h": 7583,
+    "aspect": 0.488,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/2009.10.00-First-Alaskans-Magazine_RJ.jpg": {
+    "w": 2394,
+    "h": 3145,
+    "aspect": 0.761,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/2012.04-Hill-Erik-of-Anchorage-Daily-News-of-Maxine-Vehlow-roadside-photographer-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/2012.04-Hill-Erik-of-Anchorage-Daily-News-of-Maxine-Vehlow-roadside-photographer.png": {
+    "w": 608,
+    "h": 394,
+    "aspect": 1.543,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/George-Attla-by-William-Attla--100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/George-Attla-by-William-Attla--150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/George-Attla-by-William-Attla--50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/George-Attla-by-William-Attla-.jpg": {
+    "w": 1574,
+    "h": 2900,
+    "aspect": 0.543,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/Picture-1-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-1.png": {
+    "w": 501,
+    "h": 549,
+    "aspect": 0.913,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-10-225x130.png": {
+    "w": 225,
+    "h": 130,
+    "aspect": 1.731,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/Picture-10-300x174.png": {
+    "w": 300,
+    "h": 174,
+    "aspect": 1.724,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/Picture-10-601x350.png": {
+    "w": 601,
+    "h": 350,
+    "aspect": 1.717,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/Picture-10.png": {
+    "w": 684,
+    "h": 398,
+    "aspect": 1.719,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/Picture-11.png": {
+    "w": 96,
+    "h": 34,
+    "aspect": 2.824,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/Picture-14-100x100.png": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-14-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-14-50x50.png": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-14.png": {
+    "w": 758,
+    "h": 731,
+    "aspect": 1.037,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-15-100x100.png": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-15-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-15-50x50.png": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-15.png": {
+    "w": 706,
+    "h": 716,
+    "aspect": 0.986,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-2-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-2.png": {
+    "w": 615,
+    "h": 438,
+    "aspect": 1.404,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-21-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-21.png": {
+    "w": 472,
+    "h": 608,
+    "aspect": 0.776,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/Picture-22-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-22.png": {
+    "w": 850,
+    "h": 663,
+    "aspect": 1.282,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-23.png": {
+    "w": 1183,
+    "h": 689,
+    "aspect": 1.717,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/Picture-5-100x100.png": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-5-1024x661-300x300.png": {
+    "w": 300,
+    "h": 300,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-5-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-5-50x50.png": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-5.png": {
+    "w": 1395,
+    "h": 901,
+    "aspect": 1.548,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-7-100x100.png": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-7-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-7-50x50.png": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-7-549x1024-300x300.png": {
+    "w": 300,
+    "h": 300,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-7.png": {
+    "w": 575,
+    "h": 1071,
+    "aspect": 0.537,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/Picture-8-653x1024-300x300.png": {
+    "w": 300,
+    "h": 300,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Picture-8-653x1024.png": {
+    "w": 653,
+    "h": 1024,
+    "aspect": 0.638,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/Picture-8.png": {
+    "w": 736,
+    "h": 1154,
+    "aspect": 0.638,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/SDC10329-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/SDC10329-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/SDC10329-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/SDC10329.jpg": {
+    "w": 2108,
+    "h": 2652,
+    "aspect": 0.795,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/Spirit-of-the-Windd-first-poster-1024x992-300x300.jpg": {
+    "w": 300,
+    "h": 300,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Spirit-of-the-Windd-first-poster-1024x992.jpg": {
+    "w": 1024,
+    "h": 992,
+    "aspect": 1.032,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/Spirit-of-the-Windd-first-poster.jpg": {
+    "w": 1176,
+    "h": 1140,
+    "aspect": 1.032,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/ashof-225x178.jpg": {
+    "w": 225,
+    "h": 178,
+    "aspect": 1.264,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/ashof-300x238.jpg": {
+    "w": 300,
+    "h": 238,
+    "aspect": 1.261,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/ashof-440x350.jpg": {
+    "w": 440,
+    "h": 350,
+    "aspect": 1.257,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/ashof.jpg": {
+    "w": 556,
+    "h": 442,
+    "aspect": 1.258,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/doc1.jpg": {
+    "w": 607,
+    "h": 473,
+    "aspect": 1.283,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/doc2.jpg": {
+    "w": 724,
+    "h": 473,
+    "aspect": 1.531,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/doc3-300x200.jpg": {
+    "w": 300,
+    "h": 200,
+    "aspect": 1.5,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/doc3.jpg": {
+    "w": 758,
+    "h": 477,
+    "aspect": 1.589,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/doc4-300x200.jpg": {
+    "w": 300,
+    "h": 200,
+    "aspect": 1.5,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/doc4.jpg": {
+    "w": 750,
+    "h": 464,
+    "aspect": 1.616,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs1-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs1-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs1-225x225.jpg": {
+    "w": 225,
+    "h": 225,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs1-300x300.jpg": {
+    "w": 300,
+    "h": 300,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs1-349x350.jpg": {
+    "w": 349,
+    "h": 350,
+    "aspect": 0.997,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs1-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs1.jpg": {
+    "w": 500,
+    "h": 501,
+    "aspect": 0.998,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs2-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs2-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs2-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs2.jpg": {
+    "w": 500,
+    "h": 442,
+    "aspect": 1.131,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs3-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs3-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs3-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/dogs3.jpg": {
+    "w": 500,
+    "h": 735,
+    "aspect": 0.68,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/george-and-Al-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/george-and-Al.jpg": {
+    "w": 1456,
+    "h": 1481,
+    "aspect": 0.983,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/place-above-short-paragraph-Kathy-George-winners2-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/place-above-short-paragraph-Kathy-George-winners2.jpeg": {
+    "w": 531,
+    "h": 374,
+    "aspect": 1.42,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/slideshow-ashof.jpg": {
+    "w": 960,
+    "h": 350,
+    "aspect": 2.743,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/speedracersspread.jpg": {
+    "w": 383,
+    "h": 788,
+    "aspect": 0.486,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2011/12/thumb-speedakmag2.jpg": {
+    "w": 220,
+    "h": 166,
+    "aspect": 1.325,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2011/12/thumbnail-asof-book.gif": {
+    "w": 225,
+    "h": 170,
+    "aspect": 1.324,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/01/2005.04-Folkestad-Tonje-of-George-racing-KRC-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/01/2005.04-Folkestad-Tonje-of-George-racing-KRC.jpg": {
+    "w": 2356,
+    "h": 2040,
+    "aspect": 1.155,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/01/sandall.jpg": {
+    "w": 960,
+    "h": 350,
+    "aspect": 2.743,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/1-100x100.png": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/1-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/1-50x50.png": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/1.png": {
+    "w": 546,
+    "h": 662,
+    "aspect": 0.825,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/2-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/2.jpg": {
+    "w": 671,
+    "h": 404,
+    "aspect": 1.661,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/2004.03-Spensor-JIm-of-George-running-ONAC-at-70-yrsold1_RJ-1024x550.jpg": {
+    "w": 1024,
+    "h": 550,
+    "aspect": 1.862,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/2004.03-Spensor-JIm-of-George-running-ONAC-at-70-yrsold1_RJ.jpg": {
+    "w": 1599,
+    "h": 860,
+    "aspect": 1.859,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/2008.02-Vehlow-Maxine-of-Susan-Duck-with-George-at-Rondy1-1024x823.jpg": {
+    "w": 1024,
+    "h": 823,
+    "aspect": 1.244,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/2008.02-Vehlow-Maxine-of-Susan-Duck-with-George-at-Rondy1-225x180.jpg": {
+    "w": 225,
+    "h": 180,
+    "aspect": 1.25,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/2008.02-Vehlow-Maxine-of-Susan-Duck-with-George-at-Rondy1-300x241.jpg": {
+    "w": 300,
+    "h": 241,
+    "aspect": 1.245,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/2008.02-Vehlow-Maxine-of-Susan-Duck-with-George-at-Rondy1-435x350.jpg": {
+    "w": 435,
+    "h": 350,
+    "aspect": 1.243,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/2008.02-Vehlow-Maxine-of-Susan-Duck-with-George-at-Rondy1.jpg": {
+    "w": 2277,
+    "h": 1831,
+    "aspect": 1.244,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/3-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/3.jpg": {
+    "w": 515,
+    "h": 662,
+    "aspect": 0.778,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Cover_Windows_to_the_Land_Vol2-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Cover_Windows_to_the_Land_Vol2-225x110.jpg": {
+    "w": 225,
+    "h": 110,
+    "aspect": 2.045,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Cover_Windows_to_the_Land_Vol2-300x146.jpg": {
+    "w": 300,
+    "h": 146,
+    "aspect": 2.055,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Cover_Windows_to_the_Land_Vol2.jpg": {
+    "w": 400,
+    "h": 195,
+    "aspect": 2.051,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Healthy-heros.png": {
+    "w": 1094,
+    "h": 743,
+    "aspect": 1.472,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-1-300x214.png": {
+    "w": 300,
+    "h": 214,
+    "aspect": 1.402,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-1.png": {
+    "w": 1017,
+    "h": 726,
+    "aspect": 1.401,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-10-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-10.png": {
+    "w": 901,
+    "h": 334,
+    "aspect": 2.698,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-101-179x300.png": {
+    "w": 179,
+    "h": 300,
+    "aspect": 0.597,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-101-209x350.png": {
+    "w": 209,
+    "h": 350,
+    "aspect": 0.597,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-101-613x1024.png": {
+    "w": 613,
+    "h": 1024,
+    "aspect": 0.599,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-101.png": {
+    "w": 654,
+    "h": 1091,
+    "aspect": 0.599,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-11-225x283.png": {
+    "w": 225,
+    "h": 283,
+    "aspect": 0.795,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-11-238x300.png": {
+    "w": 238,
+    "h": 300,
+    "aspect": 0.793,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-11-278x350.png": {
+    "w": 278,
+    "h": 350,
+    "aspect": 0.794,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-11-813x1024.png": {
+    "w": 813,
+    "h": 1024,
+    "aspect": 0.794,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-11.png": {
+    "w": 879,
+    "h": 1106,
+    "aspect": 0.795,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-111-192x300.png": {
+    "w": 192,
+    "h": 300,
+    "aspect": 0.64,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-111-224x350.png": {
+    "w": 224,
+    "h": 350,
+    "aspect": 0.64,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-111-225x351.png": {
+    "w": 225,
+    "h": 351,
+    "aspect": 0.641,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-111-656x1024.png": {
+    "w": 656,
+    "h": 1024,
+    "aspect": 0.641,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-111.png": {
+    "w": 699,
+    "h": 1091,
+    "aspect": 0.641,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-12-179x300.png": {
+    "w": 179,
+    "h": 300,
+    "aspect": 0.597,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-12-209x350.png": {
+    "w": 209,
+    "h": 350,
+    "aspect": 0.597,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-12-614x1024.png": {
+    "w": 614,
+    "h": 1024,
+    "aspect": 0.6,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-12.png": {
+    "w": 668,
+    "h": 1114,
+    "aspect": 0.6,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-13-166x300.png": {
+    "w": 166,
+    "h": 300,
+    "aspect": 0.553,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-13-194x350.png": {
+    "w": 194,
+    "h": 350,
+    "aspect": 0.554,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-13-569x1024.png": {
+    "w": 569,
+    "h": 1024,
+    "aspect": 0.556,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-13.png": {
+    "w": 614,
+    "h": 1104,
+    "aspect": 0.556,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-14-767x1024.png": {
+    "w": 767,
+    "h": 1024,
+    "aspect": 0.749,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-14.png": {
+    "w": 806,
+    "h": 1075,
+    "aspect": 0.75,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-15-225x257.png": {
+    "w": 225,
+    "h": 257,
+    "aspect": 0.875,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-15-262x300.png": {
+    "w": 262,
+    "h": 300,
+    "aspect": 0.873,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-15-305x350.png": {
+    "w": 305,
+    "h": 350,
+    "aspect": 0.871,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-15-894x1024.png": {
+    "w": 894,
+    "h": 1024,
+    "aspect": 0.873,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-15.png": {
+    "w": 925,
+    "h": 1059,
+    "aspect": 0.873,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-16-100x100.png": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-16-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-16-50x50.png": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-16.png": {
+    "w": 635,
+    "h": 923,
+    "aspect": 0.688,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-21-100x100.png": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-21-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-21-50x50.png": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-21.png": {
+    "w": 784,
+    "h": 1050,
+    "aspect": 0.747,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-22-260x300.png": {
+    "w": 260,
+    "h": 300,
+    "aspect": 0.867,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-22-304x350.png": {
+    "w": 304,
+    "h": 350,
+    "aspect": 0.869,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-22.png": {
+    "w": 742,
+    "h": 854,
+    "aspect": 0.869,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-23.png": {
+    "w": 674,
+    "h": 955,
+    "aspect": 0.706,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-3-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-3.png": {
+    "w": 1013,
+    "h": 834,
+    "aspect": 1.215,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-33-200x300.png": {
+    "w": 200,
+    "h": 300,
+    "aspect": 0.667,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-33-225x336.png": {
+    "w": 225,
+    "h": 336,
+    "aspect": 0.67,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-33-234x350.png": {
+    "w": 234,
+    "h": 350,
+    "aspect": 0.669,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-33-684x1024.png": {
+    "w": 684,
+    "h": 1024,
+    "aspect": 0.668,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-33.png": {
+    "w": 702,
+    "h": 1050,
+    "aspect": 0.669,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-4-100x100.png": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-4-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-4-50x50.png": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-4.png": {
+    "w": 1022,
+    "h": 684,
+    "aspect": 1.494,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-41-229x300.png": {
+    "w": 229,
+    "h": 300,
+    "aspect": 0.763,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-41-268x350.png": {
+    "w": 268,
+    "h": 350,
+    "aspect": 0.766,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-41.png": {
+    "w": 657,
+    "h": 858,
+    "aspect": 0.766,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-61-191x300.png": {
+    "w": 191,
+    "h": 300,
+    "aspect": 0.637,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-61-223x350.png": {
+    "w": 223,
+    "h": 350,
+    "aspect": 0.637,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-61-225x352.png": {
+    "w": 225,
+    "h": 352,
+    "aspect": 0.639,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-61-654x1024.png": {
+    "w": 654,
+    "h": 1024,
+    "aspect": 0.639,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-61.png": {
+    "w": 659,
+    "h": 1031,
+    "aspect": 0.639,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-7-226x300.png": {
+    "w": 226,
+    "h": 300,
+    "aspect": 0.753,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-7-264x350.png": {
+    "w": 264,
+    "h": 350,
+    "aspect": 0.754,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-7.png": {
+    "w": 656,
+    "h": 868,
+    "aspect": 0.756,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-8-195x300.png": {
+    "w": 195,
+    "h": 300,
+    "aspect": 0.65,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-8-225x345.png": {
+    "w": 225,
+    "h": 345,
+    "aspect": 0.652,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-8-227x350.png": {
+    "w": 227,
+    "h": 350,
+    "aspect": 0.649,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-8-666x1024.png": {
+    "w": 666,
+    "h": 1024,
+    "aspect": 0.65,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-8.png": {
+    "w": 678,
+    "h": 1041,
+    "aspect": 0.651,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-9-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Picture-9.png": {
+    "w": 883,
+    "h": 1140,
+    "aspect": 0.775,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-91-220x300.png": {
+    "w": 220,
+    "h": 300,
+    "aspect": 0.733,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-91-225x306.png": {
+    "w": 225,
+    "h": 306,
+    "aspect": 0.735,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-91-257x350.png": {
+    "w": 257,
+    "h": 350,
+    "aspect": 0.734,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-91-752x1024.png": {
+    "w": 752,
+    "h": 1024,
+    "aspect": 0.734,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Picture-91.png": {
+    "w": 771,
+    "h": 1049,
+    "aspect": 0.735,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/S7300584.jpg": {
+    "w": 1024,
+    "h": 768,
+    "aspect": 1.333,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/S7300644.jpg": {
+    "w": 1024,
+    "h": 768,
+    "aspect": 1.333,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-03-30-at-6.39-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-03-30-at-6.39.jpg": {
+    "w": 278,
+    "h": 418,
+    "aspect": 0.665,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Screen-shot-2012-03-30-at-6.391-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-03-30-at-6.391-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-03-30-at-6.391-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-03-30-at-6.391.jpg": {
+    "w": 268,
+    "h": 419,
+    "aspect": 0.64,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Screen-shot-2012-03-30-at-6.40-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-03-30-at-6.40-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-03-30-at-6.40-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-03-30-at-6.40.jpg": {
+    "w": 349,
+    "h": 311,
+    "aspect": 1.122,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-03-30-at-6.401-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-03-30-at-6.401-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-03-30-at-6.401-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-03-30-at-6.401.jpg": {
+    "w": 345,
+    "h": 506,
+    "aspect": 0.682,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Screen-shot-2012-05-28-at-8.35.31-AM-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-05-28-at-8.35.31-AM.png": {
+    "w": 1368,
+    "h": 958,
+    "aspect": 1.428,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-05-28-at-8.35.41-AM-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Screen-shot-2012-05-28-at-8.35.41-AM.png": {
+    "w": 1351,
+    "h": 953,
+    "aspect": 1.418,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/Tok-Dog-Mushers-Association-300x128.jpg": {
+    "w": 300,
+    "h": 128,
+    "aspect": 2.344,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/Tok-Dog-Mushers-Association.jpg": {
+    "w": 407,
+    "h": 174,
+    "aspect": 2.339,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/bbfurrondy-300x203.jpg": {
+    "w": 300,
+    "h": 203,
+    "aspect": 1.478,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/bbfurrondy.jpg": {
+    "w": 600,
+    "h": 407,
+    "aspect": 1.474,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/dogmushinginak.jpg": {
+    "w": 300,
+    "h": 230,
+    "aspect": 1.304,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/doyon-musherpride-249x300.jpg": {
+    "w": 249,
+    "h": 300,
+    "aspect": 0.83,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/doyon-musherpride.jpg": {
+    "w": 578,
+    "h": 695,
+    "aspect": 0.832,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/george1-235x300.jpg": {
+    "w": 235,
+    "h": 300,
+    "aspect": 0.783,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/george1.jpg": {
+    "w": 500,
+    "h": 636,
+    "aspect": 0.786,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/george1988-300x109.jpg": {
+    "w": 300,
+    "h": 109,
+    "aspect": 2.752,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/george1988.jpg": {
+    "w": 960,
+    "h": 350,
+    "aspect": 2.743,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/koyukuk.jpg": {
+    "w": 500,
+    "h": 339,
+    "aspect": 1.475,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/lingo.jpg": {
+    "w": 400,
+    "h": 508,
+    "aspect": 0.787,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/racebib.jpg": {
+    "w": 200,
+    "h": 291,
+    "aspect": 0.687,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/rolemodel1-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel1-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel1-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel1.jpg": {
+    "w": 500,
+    "h": 382,
+    "aspect": 1.309,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel2-100x100.png": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel2-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel2-50x50.png": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel2.png": {
+    "w": 800,
+    "h": 444,
+    "aspect": 1.802,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/rolemodel3-100x100.png": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel3-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel3-50x50.png": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel3.png": {
+    "w": 430,
+    "h": 700,
+    "aspect": 0.614,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/rolemodel4-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel4.jpg": {
+    "w": 580,
+    "h": 779,
+    "aspect": 0.745,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/rolemodel5-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel5.jpg": {
+    "w": 518,
+    "h": 700,
+    "aspect": 0.74,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/02/rolemodel6-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel6-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel6-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rolemodel6.jpg": {
+    "w": 500,
+    "h": 382,
+    "aspect": 1.309,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/rondypin.jpg": {
+    "w": 150,
+    "h": 158,
+    "aspect": 0.949,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/02/tesoro.png": {
+    "w": 400,
+    "h": 485,
+    "aspect": 0.825,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/03/Mushing_graphicx-300x175.jpg": {
+    "w": 300,
+    "h": 175,
+    "aspect": 1.714,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2012/03/Mushing_graphicx.jpg": {
+    "w": 1000,
+    "h": 584,
+    "aspect": 1.712,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2012/03/Picture-1-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/03/Picture-1.png": {
+    "w": 798,
+    "h": 1104,
+    "aspect": 0.723,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/03/Picture-6-100x100.png": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/03/Picture-6-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/03/Picture-6-50x50.png": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/03/Picture-6.png": {
+    "w": 161,
+    "h": 156,
+    "aspect": 1.032,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/03/Sled-Dog-Central.jpg": {
+    "w": 296,
+    "h": 296,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/03/UAF-Poster.jpg": {
+    "w": 849,
+    "h": 379,
+    "aspect": 2.24,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/2012/03/ahf-logo2color-178x300.jpg": {
+    "w": 178,
+    "h": 300,
+    "aspect": 0.593,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/03/ahf-logo2color.jpg": {
+    "w": 319,
+    "h": 535,
+    "aspect": 0.596,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/03/lWrights-business-card-small-e1332102850849.jpg": {
+    "w": 150,
+    "h": 71,
+    "aspect": 2.113,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2012/03/mush.jpg": {
+    "w": 400,
+    "h": 286,
+    "aspect": 1.399,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/03/nostopping-163x300.jpg": {
+    "w": 163,
+    "h": 300,
+    "aspect": 0.543,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/03/nostopping.jpg": {
+    "w": 200,
+    "h": 366,
+    "aspect": 0.546,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/03/ruby-marine-photo1-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/03/ruby-marine-photo1-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/03/ruby-marine-photo1-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/03/ruby-marine-photo1.jpg": {
+    "w": 251,
+    "h": 188,
+    "aspect": 1.335,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/03/shawna.jpg": {
+    "w": 400,
+    "h": 604,
+    "aspect": 0.662,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/05/1999-KRC-Wilson-Huslia-racing-KRC-Courtesy-of-Christine-Attla-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/1999-KRC-Wilson-Huslia-racing-KRC-Courtesy-of-Christine-Attla-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/1999-KRC-Wilson-Huslia-racing-KRC-Courtesy-of-Christine-Attla-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/1999-KRC-Wilson-Huslia-racing-KRC-Courtesy-of-Christine-Attla.jpg": {
+    "w": 1160,
+    "h": 655,
+    "aspect": 1.771,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2012/05/2002.04-Benedict-Jones-at-KRC-Courtesy-of-Christine-Attla-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2002.04-Benedict-Jones-at-KRC-Courtesy-of-Christine-Attla-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2002.04-Benedict-Jones-at-KRC-Courtesy-of-Christine-Attla-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2002.04-Benedict-Jones-at-KRC-Courtesy-of-Christine-Attla.jpg": {
+    "w": 1161,
+    "h": 796,
+    "aspect": 1.459,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2002.04-Bergman-racing-KRC-Courtesy-of-Christine-Attla-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2002.04-Bergman-racing-KRC-Courtesy-of-Christine-Attla-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2002.04-Bergman-racing-KRC-Courtesy-of-Christine-Attla-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2002.04-Bergman-racing-KRC-Courtesy-of-Christine-Attla.jpg": {
+    "w": 1161,
+    "h": 796,
+    "aspect": 1.459,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2002.04-Warner-racing-KRC-Courtesy-of-Christine-Attla-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2002.04-Warner-racing-KRC-Courtesy-of-Christine-Attla-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2002.04-Warner-racing-KRC-Courtesy-of-Christine-Attla-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2002.04-Warner-racing-KRC-Courtesy-of-Christine-Attla.jpg": {
+    "w": 1161,
+    "h": 796,
+    "aspect": 1.459,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2005.04-Floyd-Vent-at-start-of-KRC-Courtesy-of-Christine-Attla-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2005.04-Floyd-Vent-at-start-of-KRC-Courtesy-of-Christine-Attla-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2005.04-Floyd-Vent-at-start-of-KRC-Courtesy-of-Christine-Attla-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2005.04-Floyd-Vent-at-start-of-KRC-Courtesy-of-Christine-Attla.jpg": {
+    "w": 633,
+    "h": 954,
+    "aspect": 0.664,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/05/2005.04-Pat-Bergman-at-start-of-KRC-Courtesy-of-Christine-Attla-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2005.04-Pat-Bergman-at-start-of-KRC-Courtesy-of-Christine-Attla-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2005.04-Pat-Bergman-at-start-of-KRC-Courtesy-of-Christine-Attla-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2005.04-Pat-Bergman-at-start-of-KRC-Courtesy-of-Christine-Attla.jpg": {
+    "w": 1184,
+    "h": 795,
+    "aspect": 1.489,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2008.01-Frank-racing-on-New-Year-in-Huslia--150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2008.01-Frank-racing-on-New-Year-in-Huslia-.jpg": {
+    "w": 1064,
+    "h": 608,
+    "aspect": 1.75,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2012/05/2009-Courtesy-friend-of-Frank-with-leader-150x150.png": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/2009-Courtesy-friend-of-Frank-with-leader.png": {
+    "w": 386,
+    "h": 519,
+    "aspect": 0.744,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/05/2010-Courtesy-friend-of-Frank1-e1337150638726.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "aspect": 0.75,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/05/Attla-familys-dogs-archive-c-218x300.jpg": {
+    "w": 218,
+    "h": 300,
+    "aspect": 0.727,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/05/Attla-familys-dogs-archive-c.jpg": {
+    "w": 466,
+    "h": 639,
+    "aspect": 0.729,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/05/Frank-helping-at-Huslia-Carnival-2008-046-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/Frank-helping-at-Huslia-Carnival-2008-046-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/Frank-helping-at-Huslia-Carnival-2008-046-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/Frank-helping-at-Huslia-Carnival-2008-046.jpg": {
+    "w": 2266,
+    "h": 2067,
+    "aspect": 1.096,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/Getting-Ready-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/Getting-Ready.jpg": {
+    "w": 1180,
+    "h": 814,
+    "aspect": 1.45,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/Ice-Picking-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/Ice-Picking-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/Ice-Picking-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/Ice-Picking.jpg": {
+    "w": 1208,
+    "h": 843,
+    "aspect": 1.433,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/Mushing_graphicx1.jpg": {
+    "w": 1000,
+    "h": 584,
+    "aspect": 1.712,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2012/05/Picture-fa-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/Picture-fa-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/Picture-fa-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/Picture-fa.jpg": {
+    "w": 263,
+    "h": 394,
+    "aspect": 0.668,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/05/frank-with-leaders-100x100.jpg": {
+    "w": 100,
+    "h": 100,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/frank-with-leaders-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/frank-with-leaders-50x50.jpg": {
+    "w": 50,
+    "h": 50,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/05/frank-with-leaders.jpg": {
+    "w": 456,
+    "h": 989,
+    "aspect": 0.461,
+    "category": "portrait",
+    "focal": "50% 40%",
+    "preferContain": true
+  },
+  "/images/attla/2012/06/1982.02-Smith-Kirby-of-George-run-of-RondyCC-smaller-150x150.jpg": {
+    "w": 150,
+    "h": 150,
+    "aspect": 1,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/06/1982.02-Smith-Kirby-of-George-run-of-RondyCC-smaller.jpg": {
+    "w": 3165,
+    "h": 3029,
+    "aspect": 1.045,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/2012/06/Screen-shot-2012-06-01-at-8.46.12-AM.png": {
+    "w": 489,
+    "h": 279,
+    "aspect": 1.753,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/2022/10/visit.jpg": {
+    "w": 201,
+    "h": 185,
+    "aspect": 1.086,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/mindset-400x145.jpg": {
+    "w": 400,
+    "h": 145,
+    "aspect": 2.759,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/mush-400x286.jpg": {
+    "w": 400,
+    "h": 286,
+    "aspect": 1.399,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/sandall-900x300.jpg": {
+    "w": 900,
+    "h": 300,
+    "aspect": 3,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/slideshow-ashof-900x300.jpg": {
+    "w": 900,
+    "h": 300,
+    "aspect": 3,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  },
+  "/images/attla/sprint-racing.jpg": {
+    "w": 220,
+    "h": 166,
+    "aspect": 1.325,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/the-race-400x228.png": {
+    "w": 400,
+    "h": 228,
+    "aspect": 1.754,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/thumb-speedakmag2.jpg": {
+    "w": 220,
+    "h": 166,
+    "aspect": 1.325,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/thumbnail-asof-book.gif": {
+    "w": 225,
+    "h": 170,
+    "aspect": 1.324,
+    "category": "landscape",
+    "focal": "50% 32%",
+    "preferContain": false
+  },
+  "/images/attla/visit.jpg": {
+    "w": 201,
+    "h": 185,
+    "aspect": 1.086,
+    "category": "square",
+    "focal": "50% 38%",
+    "preferContain": false
+  },
+  "/images/attla/youth-day-400x200.jpg": {
+    "w": 400,
+    "h": 200,
+    "aspect": 2,
+    "category": "landscape",
+    "focal": "50% 28%",
+    "preferContain": true
+  },
+  "/images/attla/youth_program.gif": {
+    "w": 960,
+    "h": 294,
+    "aspect": 3.265,
+    "category": "banner",
+    "focal": "50% 45%",
+    "preferContain": true
+  }
+}
