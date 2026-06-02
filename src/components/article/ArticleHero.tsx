@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SiteImage } from "@/components/SiteImage";
 
 export function ArticleHero({
   src,
@@ -11,7 +11,7 @@ export function ArticleHero({
 }) {
   return (
     <div className="relative h-[min(52vh,520px)] w-full overflow-hidden bg-stone-200">
-      <Image
+      <SiteImage
         src={src}
         alt={alt}
         fill

@@ -1,11 +1,11 @@
-import Image from "next/image";
+import { SiteImage } from "@/components/SiteImage";
 import Link from "next/link";
 import { homeHero, site } from "@/data/home";
 
 export function HomeHero() {
   return (
     <section className="relative min-h-[min(88vh,900px)] overflow-hidden bg-stone-900">
-      <Image
+      <SiteImage
         src={homeHero.src}
         alt={homeHero.alt}
         fill

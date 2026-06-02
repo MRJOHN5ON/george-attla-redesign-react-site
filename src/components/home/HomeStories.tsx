@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SiteImage } from "@/components/SiteImage";
 import Link from "next/link";
 import type { HomePost } from "@/types/home";
 
@@ -7,7 +7,7 @@ function StoryCard({ post, large = false }: { post: HomePost; large?: boolean })
     return (
       <article className="group relative col-span-1 overflow-hidden rounded-2xl bg-stone-900 md:col-span-2 md:row-span-2">
         <Link href={post.href} className="block h-full min-h-[420px] no-underline md:min-h-full">
-          <Image
+          <SiteImage
             src={post.image}
             alt={post.title}
             fill
@@ -35,7 +35,7 @@ function StoryCard({ post, large = false }: { post: HomePost; large?: boolean })
   return (
     <article className="group flex flex-col overflow-hidden rounded-2xl bg-white shadow-[var(--shadow-soft)] ring-1 ring-[var(--line)] transition-shadow hover:shadow-[var(--shadow-image)]">
       <Link href={post.href} className="relative block aspect-[4/3] overflow-hidden no-underline">
-        <Image
+        <SiteImage
           src={post.image}
           alt={post.title}
           fill
