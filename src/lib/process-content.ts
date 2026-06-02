@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 import type { CheerioAPI } from "cheerio";
+import { rewriteRootUrls, withBasePath } from "@/lib/base-path";
 import {
   cleanupHeadings,
   normalizeWinnerLists,
@@ -169,6 +170,11 @@ export function processContentHtml(
 
   $root.find("img").each((_, img) => {
     const $img = $(img);
+    const lazySrc = $img.attr("data-tf-src");
+    if (lazySrc) {
+      $img.attr("src", lazySrc);
+      $img.removeAttr("data-tf-src data-tf-srcset");
+    }
     $img.removeAttr("width height");
     if (!$img.attr("alt")) {
       const cap = $img.closest("figure").find("figcaption").text().trim();
@@ -202,7 +208,7 @@ export function processContentHtml(
     $vid.replaceWith($wrap);
   });
 
-  const bodyHtml = $root.html()?.trim() || "";
+  const bodyHtml = rewriteRootUrls($root.html()?.trim() || "");
   const videoCount = (bodyHtml.match(/class="attla-video"/g) ?? []).length;
 
   // Only promote a lone video to the hero slot; multi-video pages keep all inline
@@ -216,7 +222,9 @@ export function processContentHtml(
 
   return {
     bodyHtml,
-    heroImage,
+    heroImage: heroImage
+      ? { ...heroImage, src: withBasePath(heroImage.src) }
+      : null,
     embedVideo,
     publishedDate,
     kind,

@@ -47,3 +47,13 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# Cursor / clone-template tooling (not part of the public site)
+.agents/
+.cursor/commands/
+.cursor/skills/
+docs/research/
+docs/design-references/*.png
+AGENTS.md
+DESIGN-AUDIT.md
+src/data/page-audit.json

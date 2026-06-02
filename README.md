@@ -1,55 +1,40 @@
-# Website Cloner (Cursor)
+# George Attla — Making of a Champion
 
-Reverse-engineer a website into a Next.js + shadcn/ui + Tailwind v4 codebase using Cursor Agent.
+Educational archive about sprint sled dog racer **George Attla** (1958–2011). Rebuilt as a fast, accessible **Next.js / React** site with the original photos, articles, and PDFs preserved.
 
-## Quick start
+**Live site:** after deploy, open your GitHub Pages URL (see [DEPLOY.md](./DEPLOY.md)).
+
+## Local preview
 
 ```bash
 npm install
 npm run dev
 ```
 
-In Cursor Agent chat:
+Open [http://localhost:3000](http://localhost:3000).
 
+## Build (same as GitHub Actions)
+
+```bash
+npm run build
 ```
-/clone-website https://example.com
-```
 
-Or: “Clone https://example.com pixel-perfect into this project.”
+Static files are written to `out/`.
 
-**Requires:** Node 24+, browser MCP enabled (cursor-ide-browser), and permission to copy the target site.
-
-## Project layout
+## Project structure
 
 | Path | Purpose |
 |------|---------|
-| `src/` | Next.js app — clone output lands here |
-| `public/` | Downloaded images, videos, favicons |
-| `docs/research/` | Component specs and extraction notes |
-| `docs/design-references/` | Screenshots |
-| `.cursor/skills/clone-website/` | Full clone pipeline instructions |
-| `AGENTS.md` | Project rules for the agent |
+| `src/app/` | Pages and routing |
+| `src/content/pages/` | Article HTML from the original archive |
+| `public/images/` | Photos |
+| `public/files/` | PDFs and downloads |
+| `src/components/` | Layout, navigation, article UI |
 
-## Full site (all pages)
+## Deploy
 
-Every URL from the WordPress sitemap is crawled into `src/content/pages/`:
+See **[DEPLOY.md](./DEPLOY.md)** for GitHub Pages setup with GitHub Actions.
 
-```bash
-node scripts/crawl-site.mjs   # Re-fetch all ~66 pages + images
-```
+## Credits
 
-Inner pages use the same paths as the live site (e.g. `/youth-sled-dog-program`, `/about-2/credits-2`).
-
-## Commands
-
-```bash
-npm run dev        # Dev server (http://localhost:3000)
-npm run build      # Production build (homepage + 66 static pages)
-npm run check      # lint + typecheck + build
-```
-
-## Ethics
-
-Only clone sites you own or have explicit permission to reproduce. Not for impersonation or ToS violations.
-
-Based on [ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) (MIT).
+Content © original *Making of a Champion* educational project. Site redesign for preservation and classroom use.
