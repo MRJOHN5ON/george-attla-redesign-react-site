@@ -23,13 +23,16 @@ function parseProfessionalThanks(plain: string): { name: string; role: string; d
   if (!match) return [];
 
   const body = match[1].trim();
-  const chunks = body.split(
-    /\s*;\s*(?=to |A very special thanks|Last but not least)/i
-  );
+  const chunks = body
+    .split(
+      /\s*;\s*(?=(?:and )?to )|\.(?=\s*A very special thanks)|\.(?=\s*Last but not least)/i
+    )
+    .map((c) => c.trim())
+    .filter(Boolean);
 
   return chunks.map((chunk) => {
     let text = chunk.trim();
-    if (/^to /i.test(text)) text = text.replace(/^to /i, "");
+    if (/^(?:and )?to /i.test(text)) text = text.replace(/^(?:and )?to /i, "");
     if (/^A very special thanks to /i.test(text)) {
       text = text.replace(/^A very special thanks to /i, "");
     }
