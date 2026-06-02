@@ -1,6 +1,7 @@
 import * as cheerio from "cheerio";
 import type { CheerioAPI } from "cheerio";
 import { rewriteRootUrls, withBasePath } from "@/lib/base-path";
+import { formatCreditsPage } from "@/lib/format-credits-page";
 import { formatLabelledParagraphs } from "@/lib/format-labelled-sections";
 import {
   cleanupHeadings,
@@ -165,6 +166,7 @@ export function processContentHtml(
   normalizeWinnerLists($, $root);
   cleanupHeadings($, $root);
   formatLabelledParagraphs($, $root);
+  formatCreditsPage($, $root, pagePath);
 
   if (!heroImage) {
     heroImage = extractHero($, $root, pageTitle);

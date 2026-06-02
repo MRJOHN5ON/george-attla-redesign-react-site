@@ -8,6 +8,7 @@ export type PageLayout =
   | "winners"
   | "video-hub"
   | "video-article"
+  | "credits"
   | "sparse"
   | "placeholder";
 
@@ -29,6 +30,7 @@ export function resolvePageLayout(
   }
   if (processed.kind === "index") return "index";
   if (processed.kind === "chapter" || path.includes("chapter-")) return "chapter";
+  if (path.includes("credits-2")) return "credits";
 
   return "article";
 }
@@ -41,6 +43,7 @@ export const layoutLabels: Record<PageLayout, string> = {
   winners: "Championship records",
   "video-hub": "Video archive",
   "video-article": "Featured video",
+  credits: "Credits",
   sparse: "Section overview",
   placeholder: "Archive note",
 };

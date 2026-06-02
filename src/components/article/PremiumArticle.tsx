@@ -20,6 +20,8 @@ function layoutProseClass(layout: PageLayout): string {
       return "max-w-3xl attla-layout-video-hub";
     case "video-article":
       return "max-w-3xl";
+    case "credits":
+      return "max-w-3xl lg:max-w-4xl";
     default:
       return "max-w-[42rem]";
   }
