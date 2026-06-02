@@ -11,7 +11,8 @@ function StoryCard({ post, large = false }: { post: HomePost; large?: boolean })
             src={post.image}
             alt={post.title}
             fill
-            className="object-cover opacity-90 transition-transform duration-700 group-hover:scale-[1.03]"
+            coverFocus
+            className="opacity-90 transition-transform duration-700 group-hover:scale-[1.03]"
             sizes="(max-width: 768px) 100vw, 50vw"
             unoptimized={post.image.endsWith(".gif")}
           />
@@ -39,7 +40,8 @@ function StoryCard({ post, large = false }: { post: HomePost; large?: boolean })
           src={post.image}
           alt={post.title}
           fill
-          className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+          coverFocus
+          className="transition-transform duration-500 group-hover:scale-[1.04]"
           sizes="(max-width: 768px) 100vw, 33vw"
           unoptimized={post.image.endsWith(".gif")}
         />

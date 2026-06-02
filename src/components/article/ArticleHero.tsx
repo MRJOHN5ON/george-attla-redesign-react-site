@@ -15,7 +15,7 @@ export function ArticleHero({
         src={src}
         alt={alt}
         fill
-        className="object-cover"
+        coverFocus
         sizes="100vw"
         priority
         unoptimized={src.endsWith(".gif")}

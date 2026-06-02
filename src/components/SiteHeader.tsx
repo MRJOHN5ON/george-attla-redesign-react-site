@@ -63,16 +63,16 @@ function DropdownSectionHeader({
   const active = isNavActive(pathname, item.href);
 
   return (
-    <div className="mb-3 border-b border-[var(--line)] pb-3">
+    <div className="mb-3 flex items-baseline justify-between gap-3 border-b border-[var(--line)] pb-3">
       <NavLink
         item={item}
         active={active}
         onClick={onNavigate}
-        className="block font-display text-[15px] font-semibold leading-snug text-[var(--ink)] no-underline transition-colors hover:text-[var(--accent)]"
+        className="font-display text-[15px] font-semibold leading-snug text-[var(--ink)] no-underline transition-colors hover:text-[var(--accent)]"
       />
-      <p className="mt-1 text-[11px] leading-snug text-[var(--muted)]">
-        Section overview — more pages below
-      </p>
+      <span className="shrink-0 text-[11px] font-medium uppercase tracking-wider text-[var(--muted)]">
+        Overview
+      </span>
     </div>
   );
 }
@@ -92,7 +92,7 @@ function NavMenuTrigger({
         item={item}
         active={active}
         className="flex items-center rounded-l-md px-3 py-2.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-[var(--ink-soft)] no-underline transition-colors hover:bg-[var(--surface-elevated)] hover:text-[var(--accent)] xl:pl-3.5"
-        aria-label={`${item.label} — section overview`}
+        aria-label={`${item.label} overview`}
       />
       <span
         className="flex items-center rounded-r-md px-1.5 py-2.5 text-[var(--muted)] transition-colors group-hover:bg-[var(--surface-elevated)] group-hover:text-[var(--accent)] xl:pr-2"
@@ -204,11 +204,8 @@ function ExploreMegaMenu({ pathname }: { pathname: string }) {
 
       <div className="invisible absolute right-0 top-full z-50 pt-2 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
         <div className="w-[min(calc(100vw-2.5rem),56rem)] rounded-xl border border-[var(--line)] bg-white p-5 shadow-xl">
-          <p className="mb-1 font-display text-[15px] font-semibold text-[var(--ink)]">
+          <p className="mb-4 border-b border-[var(--line)] pb-3 font-display text-[15px] font-semibold text-[var(--ink)]">
             More from the archive
-          </p>
-          <p className="mb-4 border-b border-[var(--line)] pb-3 text-[11px] leading-snug text-[var(--muted)]">
-            Each heading below opens that section&apos;s main page. Sub-links are articles inside it.
           </p>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {exploreNav.map((section) => (
@@ -216,12 +213,8 @@ function ExploreMegaMenu({ pathname }: { pathname: string }) {
                 <NavLink
                   item={section}
                   active={isNavBranchActive(pathname, section)}
-                  className="mb-1 block font-display text-[15px] font-semibold leading-snug text-[var(--ink)] no-underline hover:text-[var(--accent)]"
-                  aria-label={`${section.label} — section overview`}
+                  className="mb-2 block font-display text-[15px] font-semibold leading-snug text-[var(--ink)] no-underline hover:text-[var(--accent)]"
                 />
-                <p className="mb-2 text-[10px] font-medium uppercase tracking-wider text-[var(--muted)]">
-                  Section overview
-                </p>
                 {section.children && (
                   <ul className="space-y-1">
                     {section.children.map((child) => (
@@ -331,17 +324,6 @@ function MobileNavBranch({
       </div>
       {open && (
         <ul className="bg-[var(--surface-elevated)]">
-          <li className="border-b border-[var(--line)]">
-            <NavLink
-              item={item}
-              active={active}
-              onClick={onNavigate}
-              className="block py-3 text-sm font-semibold text-[var(--accent)] no-underline"
-              style={{ paddingLeft: `${16 + (depth + 1) * 12}px` }}
-            >
-              {item.label} — section overview
-            </NavLink>
-          </li>
           {item.children!.map((child) => (
             <MobileNavBranch
               key={`${child.href}-${child.label}`}

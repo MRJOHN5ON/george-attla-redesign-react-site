@@ -4,12 +4,12 @@ import { homeHero, site } from "@/data/home";
 
 export function HomeHero() {
   return (
-    <section className="relative min-h-[min(88vh,900px)] overflow-hidden bg-stone-900">
+    <section className="relative min-h-[min(72vh,640px)] overflow-hidden bg-stone-900 sm:min-h-[min(80vh,800px)] xl:min-h-[min(88vh,900px)]">
       <SiteImage
         src={homeHero.src}
         alt={homeHero.alt}
         fill
-        className="object-cover"
+        coverFocus
         sizes="100vw"
         priority
       />
@@ -17,7 +17,7 @@ export function HomeHero() {
       <div className="absolute inset-0 bg-gradient-to-r from-stone-950/90 via-stone-950/50 to-stone-950/30" />
       <div className="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-stone-950/20" />
 
-      <div className="relative flex min-h-[min(88vh,900px)] flex-col justify-end">
+      <div className="relative flex min-h-[min(72vh,640px)] flex-col justify-end sm:min-h-[min(80vh,800px)] xl:min-h-[min(88vh,900px)]">
         <div className="site-container pb-16 pt-32 md:pb-24 md:pt-40">
           <p className="text-xs font-semibold uppercase tracking-[0.28em] text-stone-300">
             Alaska · Sprint sled dog racing
