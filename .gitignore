@@ -48,6 +48,9 @@ next-env.d.ts
 # Local temp files
 temp/
 
+# Personal notes (not for GitHub)
+dad-redesign-summary.md
+
 # Local dev tooling (not published)
 .agents/
 .cursor/
