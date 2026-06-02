@@ -1,0 +1,642 @@
+[
+  {
+    "path": "/7-decades-of-competition",
+    "title": "More Attla Race Footage",
+    "layout": "video-hub",
+    "bodyLen": 3023,
+    "videos": 6,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/about-2",
+    "title": "About",
+    "layout": "article",
+    "bodyLen": 4717,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/about-george-attla",
+    "title": "About George Attla",
+    "layout": "article",
+    "bodyLen": 1133,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/about-the-artist",
+    "title": "About the Artist",
+    "layout": "article",
+    "bodyLen": 1948,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/about",
+    "title": "About",
+    "layout": "article",
+    "bodyLen": 121,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/alaska-sports-hall-of-fame-2",
+    "title": "Alaska Sports Hall of Fame",
+    "layout": "article",
+    "bodyLen": 3923,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 2,
+    "hero": true
+  },
+  {
+    "path": "/attla-books",
+    "title": "Attla Books",
+    "layout": "article",
+    "bodyLen": 161,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/attlas-racing-career",
+    "title": "Attla’s Racing Career",
+    "layout": "sparse",
+    "bodyLen": 63,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/books-about-george-attla",
+    "title": "Books About George Attla",
+    "layout": "gallery",
+    "bodyLen": 4088,
+    "videos": 0,
+    "galleries": 6,
+    "pdfs": 1,
+    "hero": true
+  },
+  {
+    "path": "/books-movies",
+    "title": "Books & Movies",
+    "layout": "index",
+    "bodyLen": 3177,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/by-george-50-years",
+    "title": "By George It’s Been 50 Years",
+    "layout": "gallery",
+    "bodyLen": 7157,
+    "videos": 0,
+    "galleries": 5,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/champion-sled-dogs",
+    "title": "Champion Sled Dogs",
+    "layout": "video-hub",
+    "bodyLen": 1717,
+    "videos": 2,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/chapter-eight-download-manual-by-chapter",
+    "title": "Chapter Eight: Download Manual by Chapter",
+    "layout": "chapter",
+    "bodyLen": 1088,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 7,
+    "hero": false
+  },
+  {
+    "path": "/chapter-five-kennel-part-of-veterinary-science-and-culturehealth-classes",
+    "title": "CHAPTER FIVE: Kennel part",
+    "layout": "chapter",
+    "bodyLen": 5672,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 14,
+    "hero": false
+  },
+  {
+    "path": "/chapter-four-in-school-veterinary-science-classes-for-high-school-hs",
+    "title": "CHAPTER FOUR: In-School Veterinary Science Classes for High School (HS)",
+    "layout": "chapter",
+    "bodyLen": 5836,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 24,
+    "hero": false
+  },
+  {
+    "path": "/chapter-one-six-steps-to-start-a-youth-and-sled-dog-program",
+    "title": "CHAPTER ONE",
+    "layout": "chapter",
+    "bodyLen": 6246,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/chapter-seven-starting-a-youth-sled-dog-program-in-urban-schools",
+    "title": "CHAPTER SEVEN- Starting a Youth & Sled dog Program in Urban Schools",
+    "layout": "chapter",
+    "bodyLen": 2620,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 1,
+    "hero": false
+  },
+  {
+    "path": "/chapter-six-grassroots-community-involvement",
+    "title": "CHAPTER SIX- Grassroots Community Involvement",
+    "layout": "chapter",
+    "bodyLen": 5262,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 10,
+    "hero": false
+  },
+  {
+    "path": "/chapter-three-in-school-culturehealth-classes-for-elementary-school-es-and-middle-school-ms",
+    "title": "CHAPTER THREE-In-School Culture/Health",
+    "layout": "chapter",
+    "bodyLen": 3624,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 3,
+    "hero": false
+  },
+  {
+    "path": "/chapter-two-school-commitment-to-integrating-a-community-driven-youth-and-sled-dog-program-into-the-curriculum",
+    "title": "CHAPTER TWO: School Commitment",
+    "layout": "chapter",
+    "bodyLen": 8180,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 6,
+    "hero": false
+  },
+  {
+    "path": "/competitors",
+    "title": "Competitors",
+    "layout": "video-hub",
+    "bodyLen": 4824,
+    "videos": 4,
+    "galleries": 5,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/contact-2",
+    "title": "Contact",
+    "layout": "article",
+    "bodyLen": 2761,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/dedication",
+    "title": "In Memoriam",
+    "layout": "article",
+    "bodyLen": 6163,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/dog-connection",
+    "title": "Dog Connection",
+    "layout": "gallery",
+    "bodyLen": 3435,
+    "videos": 0,
+    "galleries": 5,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/dogs-of-speed",
+    "title": "Dogs of Speed",
+    "layout": "article",
+    "bodyLen": 1612,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 2,
+    "hero": true
+  },
+  {
+    "path": "/early-career",
+    "title": "Early Career",
+    "layout": "video-hub",
+    "bodyLen": 1974,
+    "videos": 4,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/everything-i-know-about",
+    "title": "Books by George Attla",
+    "layout": "gallery",
+    "bodyLen": 2772,
+    "videos": 0,
+    "galleries": 4,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/family-of-mushers",
+    "title": "Family of Mushers",
+    "layout": "article",
+    "bodyLen": 235,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/fans-talk",
+    "title": "Fans Talk",
+    "layout": "gallery",
+    "bodyLen": 2308,
+    "videos": 0,
+    "galleries": 5,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/frank-attla-youth-sled-dog-care-mushing-program",
+    "title": "Frank Attla Youth & Sled Dog Care-Mushing Program",
+    "layout": "article",
+    "bodyLen": 4897,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 1,
+    "hero": false
+  },
+  {
+    "path": "/get-involved-start-mushing",
+    "title": "Get Involved – Start Mushing!",
+    "layout": "article",
+    "bodyLen": 2005,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/healthy-heros",
+    "title": "Healthy Heros",
+    "layout": "gallery",
+    "bodyLen": 1747,
+    "videos": 0,
+    "galleries": 3,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/history-2",
+    "title": "History",
+    "layout": "article",
+    "bodyLen": 1385,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/im-not-a-give-up-person",
+    "title": "I’m not a give up person!",
+    "layout": "article",
+    "bodyLen": 170,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/join-a-mushing-club",
+    "title": "Join a Mushing Club",
+    "layout": "article",
+    "bodyLen": 1489,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/koyukuk-river-championship",
+    "title": "Koyukuk River Championship",
+    "layout": "winners",
+    "bodyLen": 14661,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/learn-about-dog-mushing",
+    "title": "Learn about Dog Mushing",
+    "layout": "article",
+    "bodyLen": 1563,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/lingo",
+    "title": "Lingo – A Dream Leader",
+    "layout": "article",
+    "bodyLen": 1617,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 1,
+    "hero": true
+  },
+  {
+    "path": "/meet-the-man",
+    "title": "Meet the Man",
+    "layout": "video-hub",
+    "bodyLen": 2909,
+    "videos": 2,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/no-stopping-george-attla",
+    "title": "No Stopping George Attla",
+    "layout": "article",
+    "bodyLen": 1009,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 1,
+    "hero": true
+  },
+  {
+    "path": "/not-give-up",
+    "title": "I’m not a give up person!",
+    "layout": "gallery",
+    "bodyLen": 2848,
+    "videos": 0,
+    "galleries": 4,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/on-mindset-2",
+    "title": "Mindset of a Champion",
+    "layout": "video-hub",
+    "bodyLen": 1508,
+    "videos": 2,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/open-north-american",
+    "title": "Open North American",
+    "layout": "video-hub",
+    "bodyLen": 10416,
+    "videos": 2,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/people",
+    "title": "People",
+    "layout": "article",
+    "bodyLen": 1902,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/project-support",
+    "title": "Project Support",
+    "layout": "sparse",
+    "bodyLen": 78,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/races-run-interviews",
+    "title": "Attla Interviews",
+    "layout": "video-hub",
+    "bodyLen": 5743,
+    "videos": 10,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/racing-career",
+    "title": "Attla Racing Career",
+    "layout": "video-hub",
+    "bodyLen": 2174,
+    "videos": 4,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/real-dogmen-2",
+    "title": "Real Dogmen",
+    "layout": "article",
+    "bodyLen": 4606,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/real-dogmen",
+    "title": "Real Dogmen",
+    "layout": "article",
+    "bodyLen": 135,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/role-model-2",
+    "title": "Role Model",
+    "layout": "gallery",
+    "bodyLen": 3794,
+    "videos": 0,
+    "galleries": 7,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/role-model",
+    "title": "Role Model",
+    "layout": "article",
+    "bodyLen": 904,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/spirit-of-the-wind-2",
+    "title": "Spirit of the Wind",
+    "layout": "sparse",
+    "bodyLen": 77,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/spirit-of-the-wind",
+    "title": "Spirit of the Wind (movie)",
+    "layout": "video-hub",
+    "bodyLen": 5033,
+    "videos": 2,
+    "galleries": 5,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/sprint-racing-2",
+    "title": "Sprint Racing",
+    "layout": "article",
+    "bodyLen": 1724,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 1,
+    "hero": true
+  },
+  {
+    "path": "/the-fur-rondy-world-championship",
+    "title": "The Fur Rondy World Championship",
+    "layout": "video-hub",
+    "bodyLen": 11672,
+    "videos": 2,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/the-race-2",
+    "title": "The Race",
+    "layout": "video-hub",
+    "bodyLen": 852,
+    "videos": 2,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/the-race",
+    "title": "The Race",
+    "layout": "placeholder",
+    "bodyLen": 1194,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/time-machine",
+    "title": "Time Machine",
+    "layout": "article",
+    "bodyLen": 4413,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 7,
+    "hero": true
+  },
+  {
+    "path": "/timeline-gallery",
+    "title": "Timeline Gallery",
+    "layout": "placeholder",
+    "bodyLen": 472,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  },
+  {
+    "path": "/tok-champions-race",
+    "title": "Tok Race of Champions",
+    "layout": "winners",
+    "bodyLen": 8953,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/visit-a-dog-mushing-museum",
+    "title": "Visit a Dog Mushing Museum",
+    "layout": "article",
+    "bodyLen": 1936,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": true
+  },
+  {
+    "path": "/work-of-today",
+    "title": "Work of Today",
+    "layout": "article",
+    "bodyLen": 2759,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 3,
+    "hero": true
+  },
+  {
+    "path": "/young-mushers",
+    "title": "Young Mushers",
+    "layout": "article",
+    "bodyLen": 4318,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 2,
+    "hero": true
+  },
+  {
+    "path": "/youth-sled-dog-program",
+    "title": "Youth Program",
+    "layout": "index",
+    "bodyLen": 5097,
+    "videos": 0,
+    "galleries": 0,
+    "pdfs": 0,
+    "hero": false
+  }
+]

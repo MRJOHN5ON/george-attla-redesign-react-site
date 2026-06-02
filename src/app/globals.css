@@ -1,0 +1,434 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-sans), system-ui, sans-serif;
+  --font-display: var(--font-display), Georgia, serif;
+  --font-heading: var(--font-display);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+}
+
+:root {
+  --surface: #ffffff;
+  --surface-elevated: #fafaf8;
+  --background: #f5f4f0;
+  --ink: #121417;
+  --ink-soft: #2c3138;
+  --muted: #6b7280;
+  --accent: #7a232e;
+  --accent-hover: #5c1a22;
+  --link: #1a4d6e;
+  --link-hover: #123a54;
+  --line: #e8e6e1;
+  --line-strong: #d4d1c9;
+  --shadow-soft: 0 1px 2px rgb(18 20 23 / 0.04), 0 12px 40px -8px rgb(18 20 23 / 0.1);
+  --shadow-image: 0 24px 48px -12px rgb(18 20 23 / 0.22);
+
+  --foreground: var(--ink-soft);
+  --border: var(--line);
+  --ring: var(--link);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    @apply font-sans antialiased;
+  }
+  body {
+    background: var(--background);
+    color: var(--ink-soft);
+    font-size: 1.0625rem;
+    line-height: 1.75;
+  }
+}
+
+@layer utilities {
+  .site-container {
+    @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8 lg:px-10;
+  }
+}
+
+/* Premium article prose — crawled WordPress content */
+.attla-prose {
+  color: var(--ink-soft);
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+
+.attla-prose > :first-child {
+  margin-top: 0;
+}
+
+.attla-prose p {
+  margin: 0 0 1.35em;
+  max-width: 65ch;
+}
+
+.attla-prose p:has(> strong:only-child),
+.attla-prose h2 {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  color: var(--ink);
+  margin: 2.25em 0 0.75em;
+  max-width: none;
+}
+
+.attla-prose h2[style*="text-align: center"],
+.attla-prose p[style*="text-align: center"] strong {
+  text-align: center;
+  max-width: none;
+}
+
+.attla-prose strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.attla-prose em {
+  font-style: italic;
+}
+
+.attla-prose a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color 0.2s ease;
+}
+
+.attla-prose a:hover {
+  color: var(--link-hover);
+}
+
+.attla-prose a[href$=".pdf"]::after {
+  content: " ↓ PDF";
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.attla-prose ul,
+.attla-prose ol {
+  margin: 0 0 1.5em;
+  padding-left: 1.35em;
+  max-width: 65ch;
+}
+
+.attla-prose li {
+  margin-bottom: 0.5em;
+}
+
+.attla-prose li a {
+  font-weight: 500;
+}
+
+.attla-prose [style*="color: #5c0000"],
+.attla-prose [style*="color:#5c0000"] {
+  color: var(--accent) !important;
+  font-size: 1.2em;
+  line-height: 1.65;
+}
+
+.attla-prose sup {
+  font-size: 0.7em;
+}
+
+.attla-prose img:not(.attla-gallery-img) {
+  display: block;
+  width: auto !important;
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 0.375rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.attla-prose figure.wp-caption {
+  margin: 2rem 0;
+  max-width: 100% !important;
+  width: auto !important;
+}
+
+.attla-prose figure.wp-caption.alignright {
+  float: right;
+  margin: 0.25rem 0 1.5rem 2rem;
+  max-width: min(100%, 380px) !important;
+}
+
+.attla-prose figure.wp-caption.alignleft,
+.attla-prose img.alignleft {
+  float: left;
+  margin: 0.25rem 2rem 1.5rem 0;
+  max-width: min(100%, 380px) !important;
+}
+
+.attla-prose figcaption,
+.attla-prose .wp-caption-text {
+  margin-top: 0.65rem;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--muted);
+  text-align: center;
+}
+
+.attla-prose::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Gallery — full-size professional grid */
+.attla-prose .attla-gallery,
+.attla-prose .gallery {
+  clear: both;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  gap: 1.25rem;
+  margin: 2.5rem 0;
+  max-width: none !important;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+}
+
+.attla-prose .gallery-item {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.attla-prose .gallery-icon {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background: var(--surface-elevated);
+  box-shadow: var(--shadow-soft);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.attla-prose .gallery-item a {
+  display: block;
+  text-decoration: none;
+}
+
+.attla-prose .gallery-item a:hover .gallery-icon {
+  box-shadow: var(--shadow-image);
+  transform: translateY(-2px);
+}
+
+.attla-prose .attla-gallery-img,
+.attla-prose .gallery img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  aspect-ratio: auto;
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0;
+}
+
+.attla-prose .gallery-caption {
+  margin-top: 0.75rem;
+  padding: 0 0.25rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--muted);
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .attla-prose .attla-gallery,
+  .attla-prose .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .attla-prose .gallery-columns-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .attla-prose .gallery-columns-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Chapter / index pages — TOC links */
+.attla-prose p:has(a[href*="chapter-"]) {
+  max-width: none;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 0;
+}
+
+.attla-prose p:has(a[href*="chapter-"]):last-of-type {
+  border-bottom: none;
+}
+
+.attla-prose p:has(a[href*="chapter-"]) a {
+  text-decoration: none;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--ink);
+  display: block;
+  transition: color 0.2s ease;
+}
+
+.attla-prose p:has(a[href*="chapter-"]) a:hover {
+  color: var(--accent);
+}
+
+.attla-prose .attla-video {
+  margin: 2.5rem 0;
+  max-width: none;
+}
+
+.attla-prose .attla-video-inner {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  background: var(--ink);
+  box-shadow: var(--shadow-image);
+}
+
+.attla-prose .attla-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  margin: 0;
+}
+
+.attla-prose iframe {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+}
+
+.attla-prose h3 {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 2em 0 0.65em;
+  max-width: none;
+}
+
+/* Year • winner lists (Tok, Fur Rondy, etc.) */
+/* Video hub — each clip as its own chapter block */
+.attla-prose.attla-layout-video-hub .attla-video-chapter {
+  margin: 2.5rem 0;
+  padding: 0 0 2rem;
+  border-bottom: 1px solid var(--line);
+  max-width: none !important;
+}
+
+.attla-prose.attla-layout-video-hub .attla-video-chapter:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.attla-prose.attla-layout-video-hub .attla-video-chapter h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.attla-prose.attla-layout-video-hub .attla-video-chapter p {
+  max-width: 65ch;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.attla-prose .attla-winners {
+  margin: 2.5rem 0 3rem;
+  max-width: none !important;
+}
+
+.attla-prose .attla-winners-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 32rem;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+
+.attla-prose .attla-winner-row {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  gap: 1rem 1.25rem;
+  align-items: baseline;
+  padding: 0.7rem 1.25rem;
+  border-bottom: 1px solid var(--line);
+  margin: 0;
+  max-width: none;
+}
+
+.attla-prose .attla-winner-row:last-child {
+  border-bottom: none;
+}
+
+.attla-prose .attla-winner-row:nth-child(even) {
+  background: var(--surface-elevated);
+}
+
+.attla-prose .attla-winner-row--highlight {
+  background: rgb(122 35 46 / 0.08);
+}
+
+.attla-prose .attla-winner-row--highlight .attla-winner-year {
+  color: var(--accent);
+}
+
+.attla-prose .attla-winner-year {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+
+.attla-prose .attla-winner-name {
+  font-size: 1rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.attla-prose .attla-winner-row--muted .attla-winner-name {
+  font-style: italic;
+  color: var(--muted);
+}
+
+.attla-prose .attla-hero-figure {
+  margin: 2rem 0;
+  max-width: none !important;
+}
+
+.attla-prose .attla-hero-figure img {
+  width: 100%;
+  max-width: 42rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
