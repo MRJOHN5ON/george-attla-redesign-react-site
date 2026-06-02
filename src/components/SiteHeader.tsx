@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ChevronDown, Menu, Rss, Search, X } from "lucide-react";
-import { useEffect, useState, type CSSProperties } from "react";
+import { useEffect, useState, type CSSProperties, type ReactNode } from "react";
 import { SearchDialog } from "@/components/SearchDialog";
 import {
   exploreNav,
@@ -25,12 +25,16 @@ function NavLink({
   onClick,
   style,
   active,
+  children,
+  ariaLabel,
 }: {
   item: NavItem;
   className: string;
   onClick?: () => void;
   style?: CSSProperties;
   active?: boolean;
+  children?: ReactNode;
+  ariaLabel?: string;
 }) {
   return (
     <Link
@@ -39,9 +43,64 @@ function NavLink({
       onClick={onClick}
       style={style}
       aria-current={active ? "page" : undefined}
+      aria-label={ariaLabel}
     >
-      {item.label}
+      {children ?? item.label}
     </Link>
+  );
+}
+
+/** Top of each dropdown — makes clear the bar label is also a page. */
+function DropdownSectionHeader({
+  item,
+  pathname,
+  onNavigate,
+}: {
+  item: NavItem;
+  pathname: string;
+  onNavigate?: () => void;
+}) {
+  const active = isNavActive(pathname, item.href);
+
+  return (
+    <div className="mb-3 border-b border-[var(--line)] pb-3">
+      <NavLink
+        item={item}
+        active={active}
+        onClick={onNavigate}
+        className="block font-display text-[15px] font-semibold leading-snug text-[var(--ink)] no-underline transition-colors hover:text-[var(--accent)]"
+      />
+      <p className="mt-1 text-[11px] leading-snug text-[var(--muted)]">
+        Section overview — more pages below
+      </p>
+    </div>
+  );
+}
+
+function NavMenuTrigger({
+  item,
+  active,
+  className,
+}: {
+  item: NavItem;
+  active?: boolean;
+  className?: string;
+}) {
+  return (
+    <div className={cn("flex items-stretch", className)}>
+      <NavLink
+        item={item}
+        active={active}
+        className="flex items-center rounded-l-md px-3 py-2.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-[var(--ink-soft)] no-underline transition-colors hover:bg-[var(--surface-elevated)] hover:text-[var(--accent)] xl:pl-3.5"
+        aria-label={`${item.label} — section overview`}
+      />
+      <span
+        className="flex items-center rounded-r-md px-1.5 py-2.5 text-[var(--muted)] transition-colors group-hover:bg-[var(--surface-elevated)] group-hover:text-[var(--accent)] xl:pr-2"
+        aria-hidden
+      >
+        <ChevronDown className="size-3.5 transition-transform group-hover:rotate-180" />
+      </span>
+    </div>
   );
 }
 
@@ -96,28 +155,11 @@ function RacingMegaMenu({
 
   return (
     <li className="group relative">
-      <div className="flex items-center gap-0.5">
-        <NavLink
-          item={item}
-          active={branchActive}
-          className="flex items-center gap-1 px-3 py-2.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-[var(--ink-soft)] no-underline transition-colors hover:text-[var(--accent)] xl:px-3.5"
-        />
-        <ChevronDown className="size-3 text-[var(--muted)] transition-transform group-hover:rotate-180" aria-hidden />
-      </div>
+      <NavMenuTrigger item={item} active={branchActive} />
 
       <div className="invisible absolute left-0 top-full z-50 pt-2 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
         <div className="w-[min(calc(100vw-2.5rem),42rem)] rounded-xl border border-[var(--line)] bg-white p-5 shadow-xl">
-          <div className="mb-4 flex items-center justify-between gap-4 border-b border-[var(--line)] pb-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-              Sprint racing
-            </p>
-            <Link
-              href={item.href}
-              className="text-xs font-medium text-[var(--link)] no-underline hover:text-[var(--accent)]"
-            >
-              Overview →
-            </Link>
-          </div>
+          <DropdownSectionHeader item={item} pathname={pathname} />
           <div className="grid gap-6 sm:grid-cols-2">
             {career && (
               <div>
@@ -149,22 +191,24 @@ function ExploreMegaMenu({ pathname }: { pathname: string }) {
 
   return (
     <li className="group relative">
-      <button
-        type="button"
+      <div
         className={cn(
-          "flex items-center gap-1 px-3 py-2.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-[var(--ink-soft)] transition-colors hover:text-[var(--accent)] xl:px-3.5",
+          "flex items-center gap-0.5 rounded-md px-3 py-2.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-[var(--ink-soft)] transition-colors group-hover:bg-[var(--surface-elevated)] xl:px-3.5",
           exploreActive && "text-[var(--accent)]"
         )}
         aria-haspopup="true"
       >
-        Explore
-        <ChevronDown className="size-3 text-[var(--muted)] transition-transform group-hover:rotate-180" aria-hidden />
-      </button>
+        <span>Explore</span>
+        <ChevronDown className="size-3.5 text-[var(--muted)] transition-transform group-hover:rotate-180" aria-hidden />
+      </div>
 
       <div className="invisible absolute right-0 top-full z-50 pt-2 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
         <div className="w-[min(calc(100vw-2.5rem),56rem)] rounded-xl border border-[var(--line)] bg-white p-5 shadow-xl">
-          <p className="mb-4 border-b border-[var(--line)] pb-3 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
+          <p className="mb-1 font-display text-[15px] font-semibold text-[var(--ink)]">
             More from the archive
+          </p>
+          <p className="mb-4 border-b border-[var(--line)] pb-3 text-[11px] leading-snug text-[var(--muted)]">
+            Each heading below opens that section&apos;s main page. Sub-links are articles inside it.
           </p>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {exploreNav.map((section) => (
@@ -172,8 +216,12 @@ function ExploreMegaMenu({ pathname }: { pathname: string }) {
                 <NavLink
                   item={section}
                   active={isNavBranchActive(pathname, section)}
-                  className="mb-2 block font-display text-[15px] font-semibold leading-snug text-[var(--ink)] no-underline hover:text-[var(--accent)]"
+                  className="mb-1 block font-display text-[15px] font-semibold leading-snug text-[var(--ink)] no-underline hover:text-[var(--accent)]"
+                  aria-label={`${section.label} — section overview`}
                 />
+                <p className="mb-2 text-[10px] font-medium uppercase tracking-wider text-[var(--muted)]">
+                  Section overview
+                </p>
                 {section.children && (
                   <ul className="space-y-1">
                     {section.children.map((child) => (
@@ -217,16 +265,10 @@ function DesktopDropdownItem({ item, pathname }: { item: NavItem; pathname: stri
 
   return (
     <li className="group relative">
-      <div className="flex items-center gap-0.5">
-        <NavLink
-          item={item}
-          active={branchActive}
-          className="flex items-center gap-1 px-3 py-2.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-[var(--ink-soft)] no-underline transition-colors hover:text-[var(--accent)] xl:px-3.5"
-        />
-        <ChevronDown className="size-3 text-[var(--muted)] transition-transform group-hover:rotate-180" aria-hidden />
-      </div>
-      <div className="invisible absolute left-0 top-full z-50 min-w-[240px] pt-2 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
-        <div className="rounded-lg border border-[var(--line)] bg-white p-2 shadow-xl">
+      <NavMenuTrigger item={item} active={branchActive} />
+      <div className="invisible absolute left-0 top-full z-50 min-w-[min(100vw-2rem,280px)] pt-2 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+        <div className="rounded-lg border border-[var(--line)] bg-white p-3 shadow-xl">
+          <DropdownSectionHeader item={item} pathname={pathname} />
           <SubmenuLinks items={item.children!} pathname={pathname} />
         </div>
       </div>
@@ -289,6 +331,17 @@ function MobileNavBranch({
       </div>
       {open && (
         <ul className="bg-[var(--surface-elevated)]">
+          <li className="border-b border-[var(--line)]">
+            <NavLink
+              item={item}
+              active={active}
+              onClick={onNavigate}
+              className="block py-3 text-sm font-semibold text-[var(--accent)] no-underline"
+              style={{ paddingLeft: `${16 + (depth + 1) * 12}px` }}
+            >
+              {item.label} — section overview
+            </NavLink>
+          </li>
           {item.children!.map((child) => (
             <MobileNavBranch
               key={`${child.href}-${child.label}`}
