@@ -48,12 +48,20 @@ next-env.d.ts
 # Local temp files
 temp/
 
-# Cursor / clone-template tooling (not part of the public site)
+# Local dev tooling (not published)
 .agents/
-.cursor/commands/
-.cursor/skills/
-docs/research/
-docs/design-references/*.png
+.cursor/
+docs/
+scripts/crawl-site.mjs
+scripts/audit-pages.mjs
+scripts/download-assets.mjs
+scripts/fix-*.mjs
+scripts/resolve-lazy-images.mjs
+skills-lock.json
+components.json
+eslint.config.mjs
+LICENSE
+DEPLOY.md
 AGENTS.md
 DESIGN-AUDIT.md
 src/data/page-audit.json

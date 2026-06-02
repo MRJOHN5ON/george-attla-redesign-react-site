@@ -1,40 +1,22 @@
 # George Attla — Making of a Champion
 
-Educational archive about sprint sled dog racer **George Attla** (1958–2011). Rebuilt as a fast, accessible **Next.js / React** site with the original photos, articles, and PDFs preserved.
+Educational archive about sprint sled dog racer **George Attla** (1958–2011).
 
-**Live site:** after deploy, open your GitHub Pages URL (see [DEPLOY.md](./DEPLOY.md)).
+**Live site:** https://mrjohn5on.github.io/george-attla-redesign-react-site/
 
-## Local preview
+## Run locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
-
-## Build (same as GitHub Actions)
-
-```bash
-npm run build
-```
-
-Static files are written to `out/`.
-
-## Project structure
-
-| Path | Purpose |
-|------|---------|
-| `src/app/` | Pages and routing |
-| `src/content/pages/` | Article HTML from the original archive |
-| `public/images/` | Photos |
-| `public/files/` | PDFs and downloads |
-| `src/components/` | Layout, navigation, article UI |
+Open http://localhost:3000
 
 ## Deploy
 
-See **[DEPLOY.md](./DEPLOY.md)** for GitHub Pages setup with GitHub Actions.
+Pushes to `main` automatically build and publish to GitHub Pages (see `.github/workflows/deploy-github-pages.yml`).
 
-## Credits
+## Content
 
-Content © original *Making of a Champion* educational project. Site redesign for preservation and classroom use.
+Articles, photos, and PDFs are from the original *Making of a Champion* educational project. Materials are intended for educational use with credit to original authors. This site was made possible by a grant from the Alaska Humanities Forum.

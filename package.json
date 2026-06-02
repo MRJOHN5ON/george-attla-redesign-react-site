@@ -2,15 +2,7 @@
   "name": "george-attla-redesign",
   "version": "1.0.0",
   "private": true,
-  "description": "George Attla — Making of a Champion. Next.js/React redesign of the educational archive.",
-  "license": "MIT",
-  "keywords": [
-    "george-attla",
-    "sled-dog",
-    "nextjs",
-    "react",
-    "archive"
-  ],
+  "description": "George Attla — Making of a Champion. Educational archive site.",
   "engines": {
     "node": ">=20"
   },
@@ -18,17 +10,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "typecheck": "tsc --noEmit",
-    "check": "npm run lint && npm run typecheck && npm run build",
-    "crawl": "node scripts/crawl-site.mjs",
-    "fix-assets": "node scripts/fix-wp-assets.mjs",
-    "fix-images": "node scripts/fix-images.mjs",
-    "fix-lazy-images": "node scripts/resolve-lazy-images.mjs",
-    "fix-filenames": "node scripts/fix-encoded-filenames.mjs",
-    "build:search": "node scripts/build-search-index.mjs",
-    "audit:pages": "npx tsx scripts/audit-pages.mjs",
-    "prebuild": "npm run build:search"
+    "prebuild": "node scripts/build-search-index.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
@@ -48,8 +30,6 @@
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
